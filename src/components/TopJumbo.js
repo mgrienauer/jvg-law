@@ -5,13 +5,12 @@ const topJumboStyle = {
   height: '200px',
   alignItems: 'center',
   display: 'flex',
-  backgroundImage: 'linear-gradient(to right, white , #a8f3ff, white )'
 };
 
 const TopJumbo = (props) => {
   return (
     <div style={topJumboStyle}>
-      <Container fluid className="top-jumbo">
+      <Container fluid className="top-jumbo" style={props.appWidth}>
         <div className="float-left">
           <h1>John V. Grienauer, Esq.</h1>
           <p>Serving the Los Angeles Area</p>

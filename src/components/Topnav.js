@@ -12,7 +12,8 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
-export default class TopNav extends React.Component {
+
+export default class Topnav extends React.Component {
   constructor(props) {
     super(props);
 
@@ -26,13 +27,14 @@ export default class TopNav extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
-      <div>
-        <Navbar light expand="md navbar navbar-dark bg-primary">
+      <div className="bg-primary">
+        <Navbar expand="md" className="navbar navbar-dark" style={this.props.appWidth}>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav navbar className="ml-auto">
               <NavItem>
                 <NavLink href="/components/">Home</NavLink>
               </NavItem>

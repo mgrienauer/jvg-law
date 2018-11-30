@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
-import TopNav from './components/Topnav';
-import TopJumbo from './components/TopJumbo'
+import Topnav from './components/Topnav';
+import TopJumbo from './components/TopJumbo';
+import Skyline from './components/Skyline';
+import ServiceDescript from './components/ServiceDescript';
 
 const appWidth = {
   maxWidth: '1020px',
-  width: '100%',
   margin: 'auto'
 }
 
 class App extends Component {
   render() {
     return (
-      <div className="App" style={appWidth}>
-        <TopJumbo />
-        <TopNav/>
+      <div className="App">
+        <div className="topInfoDiv">
+          <TopJumbo appWidth={appWidth}/>
+          <Topnav appWidth={appWidth}/>
+          <Skyline />
+        </div>
+        <ServiceDescript />
       </div>
     );
   }
