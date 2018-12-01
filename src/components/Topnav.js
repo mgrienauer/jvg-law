@@ -30,7 +30,7 @@ export default class Topnav extends React.Component {
 
   render() {
     return (
-      <div className="bg-primary">
+      <div className="bg-dark sticky-top">
         <Navbar expand="md" className="navbar navbar-dark" style={this.props.appWidth}>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
