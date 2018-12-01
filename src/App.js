@@ -4,6 +4,7 @@ import TopJumbo from './components/TopJumbo';
 import Skyline from './components/Skyline';
 import ServiceDescript from './components/ServiceDescript';
 import About from './components/About';
+import Contact from './components/Contact'
 
 const appWidth = {
   maxWidth: '1020px',
@@ -19,6 +20,7 @@ class App extends Component {
         <Skyline />
         <ServiceDescript />
         <About />
+        <Contact />
       </div>
     );
   }
