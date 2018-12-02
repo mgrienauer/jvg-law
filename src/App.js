@@ -4,7 +4,7 @@ import TopJumbo from './components/TopJumbo';
 import Skyline from './components/Skyline';
 import ServiceDescript from './components/ServiceDescript';
 import About from './components/About';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
 
 const appWidth = {
   maxWidth: '1020px',

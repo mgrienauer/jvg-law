@@ -26,6 +26,7 @@ export default class Example extends React.Component {
           <Input type="textarea" name="message" id="exampleMessage" placeholder="Enter a brief description of your legal issue" />
         </FormGroup>
         <Button type="submit">Send Inquiry</Button>
+        <input type="hidden" name="_next" value="http://localhost:3000/components/" />
       </Form>
     );
   }
