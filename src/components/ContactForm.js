@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 const formStyling = {
-  width: '90%',
+  width: '100%',
   padding: '15px',
   border: '1px solid #ced4da',
   borderRadius: '5px'
