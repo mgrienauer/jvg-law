@@ -6,6 +6,7 @@ import ServiceDescript from './components/ServiceDescript';
 import About from './components/About';
 import Contact from './components/Contact';
 import FeeArrangements from './components/FeeArrangements';
+import Footer from './components/Footer.js';
 
 const appWidth = {
   maxWidth: '1020px',
@@ -23,6 +24,7 @@ class App extends Component {
         <About />
         <FeeArrangements />
         <Contact />
+        <Footer/>
       </div>
     );
   }

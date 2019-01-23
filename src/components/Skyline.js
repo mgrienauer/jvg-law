@@ -4,9 +4,9 @@ const skyline_img = '/images/skyline.jpg';
 
 const skylineStyle = {
   backgroundImage: `url(${skyline_img})`,
-  backgroundColor: 'salmon',
+  backgroundColor: 'bg-dark',
   height: 'calc(100vh - 256px)',
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
 }
 
 export default function Skyline() {
