@@ -7,15 +7,13 @@ export default class About extends React.Component {
     return (
       <Container>
         <Row>
-          <Col lg="6" sm="12" className="d-flex justify-content-center mt-5">
-            <ProfileCard />
-          </Col>
-          <Col lg="6" sm="12" className="mt-5">
-            <h3 className="text-center">About John V. Grienauer</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus ipsum lectus, dignissim vulputate metus suscipit ut. Suspendisse molestie nibh eget volutpat hendrerit. Quisque efficitur ipsum dolor, at efficitur enim mollis vitae. Mauris et tellus suscipit diam porttitor malesuada. Etiam consequat lacinia nulla, ut tempor massa semper et. Mauris consectetur diam nec ipsum suscipit, eget lacinia ipsum dignissim. Ut id lacinia mi.
-                <br /> <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus ipsum lectus, dignissim vulputate metus suscipit ut. Suspendisse molestie nibh eget volutpat hendrerit. Quisque efficitur ipsum dolor, at efficitur enim mollis vitae. Mauris et tellus suscipit diam porttitor malesuada. Etiam consequat lacinia nulla, ut tempor massa semper et. Mauris consectetur diam nec ipsum suscipit, eget lacinia ipsum dignissim. Ut id lacinia mi.
+          <Col lg={{ size: 10, offset: 1 }} sm="12" className="mt-5">
+            <h3 className="text-center">Law Offices of John V. Grienauer</h3>
+            <p className="mt-3">
+              John Grienauer has been an attorney practicing civil litigation primarily in Los Angeles County, California for over 40 years during which time 35 years has been spent as a sole practitioner. 
+              <br/><br/>Born, raised, and educated in Los Angeles, Mr. Grienauer graduated from Loyola High School of Los Angeles, the University of Southern California, and Loyola Law School of Los Angeles.  Mr. Grienauer has been a licensed California Real Estate Broker for over 25 years, in addition to being licensed to practice law, and has just recently retired as owner of a real estate mortgage company which was owned and operated by him since 1991, Millennium Mortgage.
+              <br/><br/>Over the course of his career , Mr. Grienauer's clients have enjoyed a success rate of over 90%, with success being defined as settlement or verdict meeting or exceeding the targets set by Mr. Grienauer and his client in the subject matter.  His expertise in real estate has enhanced his legal practice. He is primarily engaged in the resolution of real estate related disputes which are primarily disputes focused on rights of title to property and disputes involving leases with the rental values over $25,000.00 per month.    
+              <br/><br/>You may be assured that upon retention of Mr. Grienauer's  services he will personally be the attorney that attends:  all court hearings on your behalf, all settlement conferences, all mediations, all arbitrations, and all trials.  He will be the attorney that makes all phone calls on your behalf and provides all the final edits on any pleadings or writings presented on your behalf.  In short, if your retain Mr. Grienauer's  services your legal matter will be handled by him and will have the advantage of his forty years of litigation and real estate related experience through every step of the process.
             </p>
           </Col>
         </Row>
