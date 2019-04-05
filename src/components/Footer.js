@@ -13,7 +13,11 @@ export default function Footer(props) {
       <Container style={props.appWidth}>
         <Row style={footerStyle}>
           <Col>
-            <p>hello</p>
+            <p className="text-white text-center">
+              John Vincent Grienauer, Esq. &nbsp;•&nbsp; 310-123-4567 &nbsp;•&nbsp; john.grienauer@cox.net
+            </p>
+            <p className="text-white text-center">609 Deep Valley Dr # 200, Rolling Hills Estates, CA 90274</p>
+            <p className="text-white text-center">© 2019 John Vincent Grienauer</p>
           </Col>
         </Row>
       </Container>
