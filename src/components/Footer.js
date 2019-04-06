@@ -9,7 +9,7 @@ const footerStyle = {
 
 export default function Footer(props) {
   return (
-    <footer className="footer bg-dark mt-5">
+    <footer className="footer bg-dark mt-5 mb-0">
       <Container style={props.appWidth}>
         <Row style={footerStyle}>
           <Col>

@@ -15,20 +15,38 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default class Topnav extends React.Component {
   constructor(props) {
     super(props);
-
     this.toggle = this.toggle.bind(this);
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      width: 0,
+      height: 0
     };
   }
+  //add event listener to check for a resize of window
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+  //remove resize listener after component needs to unmount
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+  //update state to reflect window dimensions
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
   scrollToTop = () => {
     scroll.scrollToTop();
   };
+
 
   render() {
     return (
@@ -63,7 +81,7 @@ export default class Topnav extends React.Component {
                     to="intro"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={this.state.width > 767 ? -70 : -250}
                     duration={400}
                     onClick={this.toggle}
                   >
@@ -79,7 +97,7 @@ export default class Topnav extends React.Component {
                     to="services"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={this.state.width > 767 ? -70 : -275}
                     duration={400}
                     onClick={this.toggle}
                   >
@@ -95,7 +113,7 @@ export default class Topnav extends React.Component {
                     to="fees"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={this.state.width > 767 ? -70 : -220}
                     duration={400}
                     onClick={this.toggle}
                   >
@@ -111,7 +129,7 @@ export default class Topnav extends React.Component {
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={this.state.width > 767 ? -70 : -280}
                     duration={600}
                     onClick={this.toggle}
                   >
