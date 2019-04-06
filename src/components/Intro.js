@@ -2,11 +2,11 @@ import React from 'react'
 import { Container, Row, Col } from 'reactstrap';  
 import Video from './Video'    
 
-export default function Intro() {
+export default function Intro(props) {
   return (
     <Container>
-        <Row className="mt-5">
-            <Col sm="12" lg={{ size: 6, offset: 1 }}>
+        <Row className="mt-3" id="intro">
+            <Col lg="6" sm="12">
                 <Video />
             </Col>
         </Row>

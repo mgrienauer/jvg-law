@@ -17,7 +17,7 @@ const TopJumbo = (props) => {
         </div>
         <div className="float-right text-center">
           <h2 className="text-responsive-big">Call for a free consulatation:</h2>
-          <h2 className="text-responsive-big">310-123-4567</h2>
+          <h2 className="text-responsive-big">310-373-5944</h2>
         </div>
       </Container>
     </div>

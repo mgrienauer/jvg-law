@@ -11,8 +11,9 @@ const formStyling = {
 export default class Example extends React.Component {
   render() {
     return (
-      <Form method="POST" action="https://formspree.io/mgrienauer@gmail.com" className="mt-5" style={formStyling}>
+      <Form method="POST" action="https://formspree.io/mgrienauer@gmail.com" className="mt-5" id="contact" style={formStyling}>
         <h2 className="text-center">Contact Us</h2>
+        <p>Fill out the contact form or send an email to: <strong>john.grienauer@cox.net</strong></p>
         <FormGroup>
           <Label for="exampleName">Name</Label>
           <Input type="text" name="name" id="exampleName" placeholder="Enter your full name" />

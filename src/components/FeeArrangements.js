@@ -5,7 +5,7 @@ import FeeTabs from './FeeTabs';
 export default function FeeArrangements() {
   return (
     <Container>
-      <Row>
+      <Row id="fees">
         <Col sm="12" md={{ size:10, offset:1 }} className="mt-5">
           <h3 className="text-center">Fees and Costs</h3>
           <h6>

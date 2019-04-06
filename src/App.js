@@ -18,14 +18,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Topnav appWidth={appWidth}/>
+        <Topnav appWidth={appWidth} title="home"/>
         <TopJumbo appWidth={appWidth}/>
         <Skyline />
         <ServiceDescript />
-        <Intro />
-        <About />
-        <FeeArrangements />
-        <Contact />
+        <Intro title="about"/>
+        <About title="services"/>
+        <FeeArrangements title="fees"/>
+        <Contact title="contact"/>
         <Footer/>
       </div>
     );

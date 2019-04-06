@@ -1,13 +1,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import ProfileCard from './ProfileCard';
 
 export default class About extends React.Component {
   render() {
     return (
       <Container>
-        <Row>
-          <Col lg={{ size: 10, offset: 1 }} sm="12" className="mt-5">
+        <Row className="mt-5" id="services">
+          <Col lg={{ size: 10, offset: 1 }} sm="12" className="mt-2">
             <h3 className="text-center">Law Offices of John V. Grienauer</h3>
             <p className="mt-3">
               John Grienauer has been an attorney practicing civil litigation primarily in Los Angeles County, California for over 40 years during which time 35 years has been spent as a sole practitioner. 

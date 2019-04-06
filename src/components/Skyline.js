@@ -7,7 +7,8 @@ const skylineStyle = {
   backgroundColor: 'bg-dark',
   height: 'calc(100vh - 256px)',
   backgroundSize: 'cover',
-  transformOrigin: 'center'
+  backgroundPosition: 'center',
+  backgroundPositionY: '35%'
 }
 
 export default function Skyline() {
