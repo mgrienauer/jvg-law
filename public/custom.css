@@ -1,0 +1,14 @@
+
+/*576px and 768px*/
+
+@media all and (max-width: 576px) { /* screen size until 576px */
+    .text-responsive-big {
+        font-size: 1.4em !important;
+    }
+    .text-responsive-small {
+        font-size: 1em !important;
+    }
+    .icon-responsive {
+        font-size: 2em !important;
+    }
+}

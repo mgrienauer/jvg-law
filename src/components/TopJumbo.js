@@ -9,15 +9,15 @@ const topJumboStyle = {
 
 const TopJumbo = (props) => {
   return (
-    <div style={topJumboStyle}>
+    <div style={topJumboStyle} className="bg-light">
       <Container fluid className="top-jumbo" style={props.appWidth}>
-        <div className="float-left">
-          <h1>John V. Grienauer, Esq.</h1>
-          <p>Serving the Los Angeles Area</p>
+        <div className="float-left text-center">
+          <h1 className="text-responsive-big">John V. Grienauer, Esq.</h1>
+          <p className="text-responsive-small">Serving the Los Angeles Area</p>
         </div>
-        <div class="float-right">
-          <h2>Call for a free consulatation:</h2>
-          <h2 className="text-center">310-123-4567</h2>
+        <div className="float-right text-center">
+          <h2 className="text-responsive-big">Call for a free consulatation:</h2>
+          <h2 className="text-responsive-big">310-123-4567</h2>
         </div>
       </Container>
     </div>

@@ -21,7 +21,7 @@ export default class FeeTabs extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="fee-tabs-container">
         <Nav tabs>
           <NavItem>
             <NavLink
