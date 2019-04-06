@@ -35,7 +35,7 @@ export default class Topnav extends React.Component {
       <div className="bg-dark sticky-top">
         <Navbar expand="md" className="navbar navbar-dark" style={this.props.appWidth}>
           <NavbarBrand href="/">JVG Law</NavbarBrand>
-          <p className="text-center text-white m-auto">310-373-5944</p>
+          <p className="text-center text-white m-auto pl-3">310-373-5944</p>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar className="ml-auto">
@@ -49,7 +49,7 @@ export default class Topnav extends React.Component {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    onClick={this.scrollToTop}
+                    onClick={() => { this.scrollToTop(); this.toggle(); }}
                   >
                     Home
                   </Link>  
@@ -65,6 +65,7 @@ export default class Topnav extends React.Component {
                     smooth={true}
                     offset={-70}
                     duration={400}
+                    onClick={this.toggle}
                   >
                     About
                   </Link>  
@@ -80,6 +81,7 @@ export default class Topnav extends React.Component {
                     smooth={true}
                     offset={-70}
                     duration={400}
+                    onClick={this.toggle}
                   >
                     Legal Services
                   </Link>  
@@ -95,6 +97,7 @@ export default class Topnav extends React.Component {
                     smooth={true}
                     offset={-70}
                     duration={400}
+                    onClick={this.toggle}
                   >
                     Fees and Costs
                   </Link>  
@@ -109,7 +112,8 @@ export default class Topnav extends React.Component {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={400}
+                    duration={600}
+                    onClick={this.toggle}
                   >
                     Contact
                   </Link>  
