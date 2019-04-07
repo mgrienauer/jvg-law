@@ -13,7 +13,7 @@ const TopJumbo = (props) => {
       <Container fluid className="top-jumbo" style={props.appWidth}>
         <div className="float-left text-center">
           <h1 className="text-responsive-big">John V. Grienauer, Esq.</h1>
-          <p className="text-responsive-small">Serving the Los Angeles Area</p>
+          <p className="text-responsive-small">Real Estate Related Litigation in the Los Angeles County Area</p>
         </div>
         <div className="float-right text-center">
           <h2 className="text-responsive-big">Call for a free consulatation:</h2>

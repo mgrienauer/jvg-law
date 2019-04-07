@@ -62,7 +62,7 @@ export default class FeeTabs extends React.Component {
               <Col sm="12">
                 <h4>Hourly Rate</h4>
                 <p>
-                  Hourly rate clients are currently charged $385.00 per hour. Hours are recorded in tenths and the client is billed every 30-60 days, and the bills are due upon receipt. The client is required to post a retainer fee at the time of the retention and signing of the retainer agreement.  The amount of the retention fee is dependent on the amount of work the matter appears to require.  It will generally vary from $3000.00 to $15,000.00, with most cases retained with a payment of $5000.00.  The retainer fee is ONLY APPLIED to the payment of the final bill issued at the conclusion of the matter, or at the conclusion of the attorney client relationship.  If, at that time, the final bill is less that the retainer amount, the client will receive a check for the difference along with the final bill.   If the final bill is more than the retainer amount, then the Client will receive a credit against the final bill for the retainer amount.
+                  Hourly rate clients are currently charged $365.00 per hour. Hours are recorded in tenths and the client is billed every 30-60 days, and the bills are due upon receipt. The client is required to post a retainer fee at the time of the retention and signing of the retainer agreement.  The amount of the retention fee is dependent on the amount of work the matter appears to require.  It will generally vary from $3000.00 to $15,000.00, with most cases retained with a payment of $5000.00.  The retainer fee is ONLY APPLIED to the payment of the final bill issued at the conclusion of the matter, or at the conclusion of the attorney client relationship.  If, at that time, the final bill is less that the retainer amount, then the client will receive a check for the difference along with the final bill.   If the final bill is more than the retainer amount, then the Client will receive a credit against the final bill for the retainer amount.
                 </p>
               </Col>
             </Row>
@@ -88,7 +88,7 @@ export default class FeeTabs extends React.Component {
               <Col sm="12">
                 <h4>Flat Fee Plus Contingency</h4>
                 <p>
-                    Litigation is expensive, and can be very challenging economically.  Inability to achieve just compensation because of a lack of the funds necessary to fight for justice is a recurring problem in our society.  In some instances, matters will be taken with a reduced flat fee agreement,  and a contingency fee to be paid upon settlement or recovery of judgment.
+                    Litigation is expensive, and can be very challenging economically.  Inability to achieve just compensation because of a lack of the funds necessary to fight for justice is a recurring problem in our society.  In some instances, matters will be taken with a reduced flat fee,  plus a contingency fee to be paid upon settlement or recovery of judgment.
                     <br/>No case, regardless of merit, is ever taken on a pure contingency.
                 </p>
               </Col>
@@ -99,7 +99,7 @@ export default class FeeTabs extends React.Component {
               <Col sm="12">
                 <h4>Costs</h4>
                 <p>
-                    Costs are expenses and fees paid to third parties other than the Attorney for work performed on the case that is not legal work of the type that Attorney's perform.  Costs would include items like: fees paid to the court; fees paid to process servers; fees paid to court reporters; fees paid for expert testimony; jury fees; postage fees; messenger fees; parking fees; fees for materials used in the presentation of the case like binders; divider tabs; photocopying charges; fees for travel out of state to conduct depositions; videographer fees; interpreter fees, and so on.
+                    Costs are expenses and fees paid to third parties other than the Attorney for work performed on the case that is not legal work of the type that Attorneys perform.  Costs would include items like: fees paid to the court; fees paid to process servers; fees paid to court reporters; fees paid for expert testimony; jury fees; postage fees; messenger fees; parking fees; fees for materials used in the presentation of the case like binders; divider tabs; photocopying charges; fees for travel out of state to conduct depositions; videographer fees; interpreter fees, and so on.
                 </p>
                 <p>
                     All costs are paid by the Client.  At the initiation of the retention, the Client will be required to post money for costs (usually between $1500 and $2500).  Cost money is held in the Attorney Client Trust Account by the Attorney and is used by the Attorney only for the payment of costs.  Attorney will not expend costs on a single item of more than $500.00 without the written consent of Client.   If the Attorney spends his own money to pay costs, then he will bill the Client, and all bills are due upon receipt.  
