@@ -24,6 +24,7 @@ export default class Video extends Component {
       <div className="video-container">
         <iframe 
           title="John Grienauer Law Offices"
+          alt="Video introduction of John V Grienauer, Los Angeles Real Estate Lawyer"
           src="https://www.youtube.com/embed/t_2Lz7TGVN8" 
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
