@@ -11,6 +11,25 @@
 	height: 100%;
 	position: absolute;
 }
+.headshot {
+    height: 355px;
+    width: 300px;
+    background-image: url(./images/john.jpg);
+    background-size: cover;
+}
+
+@media all and (max-width: 991px) {
+    .headshot { 
+        margin-top: 2em;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .headshot {
+        height: 300px;
+        width: 250px;
+    }
+}
 
 @media all and (max-width: 576px) { /* screen size until 576px */
     .text-responsive-big {
