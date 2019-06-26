@@ -7,10 +7,7 @@ const MapCard = (props) => {
   return (
     <div>
       <Card className="mt-5">
-        <Map
-          containerElement={<div style={{ height: `200px` }} />}
-          mapElement={<div style={{ height: `100px` }} />}
-        />
+        <Map />
         <CardBody>
           <CardTitle>Law Offices of John V. Grienauer</CardTitle>
           <CardText>609 Deep Valley Dr # 200, Rolling Hills Estates, CA 90274</CardText>
