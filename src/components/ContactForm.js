@@ -13,11 +13,9 @@ export default class Example extends React.Component {
 		return (
 			<>
 				<Form
-					name="contact"
+					name="form-name"
+					value="contact"
 					method="POST"
-					data-netlify="true"
-					netlify-honeypot="bot-field"
-					enctype="application/x-www-form-urlencoded"
 					className="mt-5"
 					id="contact"
 					style={formStyling}
