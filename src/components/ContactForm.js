@@ -16,15 +16,11 @@ export default class Example extends React.Component {
 					name="contact"
 					method="POST"
 					data-netlify="true"
+					netlify-honeypot="bot-field"
 					className="mt-5"
 					id="contact"
 					style={formStyling}
 				>
-					<p class="hidden">
-						<label>
-							Don’t fill this out if you're human: <input name="bot-field" />
-						</label>
-					</p>
 					<h2 className="text-center">Contact Us</h2>
 					<p>
 						Fill out the contact form or send an email to:{" "}
