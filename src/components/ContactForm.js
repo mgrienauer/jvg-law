@@ -12,12 +12,6 @@ export default class Example extends React.Component {
 	render() {
 		return (
 			<>
-				<form name="contact" netlify netlify-honeypot="bot-field" hidden>
-					<input type="text" name="name" />
-					<input type="email" name="email" />
-					<textarea name="message" />
-				</form>
-
 				<Form
 					name="contact"
 					method="POST"
@@ -26,7 +20,7 @@ export default class Example extends React.Component {
 					id="contact"
 					style={formStyling}
 				>
-					<input type="hidden" name="form-name" value="contact" />
+					<input type="hidden" name="contact" value="contact" />
 					<h2 className="text-center">Contact Us</h2>
 					<p>
 						Fill out the contact form or send an email to:{" "}
