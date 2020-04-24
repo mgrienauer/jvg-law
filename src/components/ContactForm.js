@@ -15,11 +15,11 @@ export default class Example extends React.Component {
 				<Form
 					name="contact"
 					method="POST"
+					data-netlify="true"
 					className="mt-5"
 					id="contact"
 					style={formStyling}
 				>
-					<input type="hidden" name="contact" value="contact" />
 					<p class="hidden">
 						<label>
 							Don’t fill this out if you're human: <input name="bot-field" />
