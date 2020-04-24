@@ -35,6 +35,15 @@ export default class Example extends React.Component {
 						/>
 					</FormGroup>
 					<FormGroup>
+						<Label for="examplePhone">Phone Number</Label>
+						<Input
+							type="text"
+							name="phone"
+							id="examplePhone"
+							placeholder="Enter your phone number"
+						/>
+					</FormGroup>
+					<FormGroup>
 						<Label for="exampleText">Email</Label>
 						<Input
 							type="email"
