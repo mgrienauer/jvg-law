@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import LazyLoad from "react-lazy-load";
 
 export default function Headshot() {
-  return (
-    <div className="headshot">
-      
-    </div>
-  )
+	return (
+		<LazyLoad>
+			<div className="headshot" />
+		</LazyLoad>
+	);
 }
