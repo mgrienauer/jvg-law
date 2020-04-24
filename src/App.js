@@ -38,9 +38,7 @@ class App extends Component {
 				</LazyLoad>
 				<About title="services" />
 				<FeeArrangements title="fees" />
-				<LazyLoad>
-					<Contact title="contact" />
-				</LazyLoad>
+				<Contact title="contact" />
 				<Footer />
 			</div>
 		);
