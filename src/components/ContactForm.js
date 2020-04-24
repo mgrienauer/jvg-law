@@ -13,13 +13,13 @@ export default class Example extends React.Component {
 		return (
 			<>
 				<Form
-					name="form-name"
-					value="contact"
+					name="contact"
 					method="POST"
 					className="mt-5"
 					id="contact"
 					style={formStyling}
 				>
+					<input type="hidden" name="form-name" value="contact" />
 					<h2 className="text-center">Contact Us</h2>
 					<p>
 						Fill out the contact form or send an email to:{" "}
